@@ -9,7 +9,7 @@ import Player from './player componets/Player';
 function App() {
 
   return (
-    <div className="...">
+    <div >
       <Nav></Nav>
       <Player></Player>
 

@@ -1,14 +1,18 @@
 import React from 'react';
+import './PlayerCart.css'
 
 const PlayerCart = ({ data }) => {
     const { name, picture, time } = data
     return (
-        <div>
-            <img src={picture} alt="" />
-            <h3>{name}</h3>
-            <p>{time}</p>
+        <div >
+            <div className='content'>
+                <img src={picture} alt="" />
+                <h5>{name}</h5>
+                <p>Time required : {time}s</p>
+                <button className=' add-button'>Add To List</button>
+            </div>
         </div>
-    );
+    )
 };
 
 export default PlayerCart;

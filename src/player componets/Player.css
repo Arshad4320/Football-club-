@@ -1,0 +1,26 @@
+.card-container {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    margin-left: 30px;
+}
+
+.cart-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.cart-content img {
+    width: 80%;
+    border-radius: 10px;
+
+}
+
+.add-button {
+    margin-bottom: 15px;
+    background: rebeccapurple;
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    color: white;
+    width: 80%;
+}

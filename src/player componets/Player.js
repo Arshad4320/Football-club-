@@ -1,6 +1,7 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
 import PlayerCart from '../Player cart/PlayerCart';
+import './Player.css'
 
 const Player = () => {
     const [playerItem, setPlayerItem] = useState([])
@@ -11,8 +12,14 @@ const Player = () => {
     }, [])
     return (
         <div>
-            {
-                playerItem.map(p => <PlayerCart data={p}></PlayerCart>)}
+            <div className="card-container">
+                <div className="cart-content">
+                    {playerItem.map(p => <PlayerCart data={p}></PlayerCart>)}
+                </div>
+                <div className="side-content">
+                    <h2>I am hero</h2>
+                </div>
+            </div>
         </div>
     );
 };
