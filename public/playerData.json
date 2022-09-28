@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFTzBp08maww4Y3f9vgte0gEURRUOwnIUgqA&usqp=CAU",
+        "name": "Gibson Abbott",
+        "time": 25
+    },
+    {
+        "id": 2,
+        "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn6Y7O23GLa7qErBehXEXYLcNLEKaku7flug&usqp=CAU",
+        "name": "Elsie Matthews",
+        "time": 28
+    },
+    {
+        "id": 3,
+        "picture": "2wCEAAkGBxISEhUSEBIVFRIQFRAQEA8PEBAPFRUPFRUXFhUVFhcYHSggGBolGxUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OFxAQFysdHR0tLS0tKy0tLS0tLSstLS0rLS0tLS0tLS0tLS0tLS0tLSstLS0tLS0rLS0tLS0tKy0tLf",
+        "name": "Bianca Hernandez",
+        "time": 24
+    },
+    {
+        "id": 4,
+        "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYApBQeqX7X1A8bp3gr3YUUHsZKP1Uqcr42w&usqp=CAU",
+        "name": "Wright Wiggins",
+        "time": 25
+    },
+    {
+        "id": 5,
+        "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG1DeAjlfsX8AzGMOnjFa4iiz8HJ_Crz667w&usqp=CAU",
+        "name": "Gilliam Wilder",
+        "time": 35
+    },
+    {
+        "id": 6,
+        "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYbiHf0luZV7soPGLqflZauUnMBPZL3-6_IA&usqp=CAU",
+        "name": "Joy Oliver",
+        "time": 36
+    },
+    {
+        "id": 7,
+        "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYCdYzixWvGsTs9qYiBJWmmi29NvxFoilIkA&usqp=CAU",
+        "name": "Castillo Valencia",
+        "time": 36
+    },
+    {
+        "id": 8,
+        "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQc7MCK5GP-5VsUbtJVVdAcuQEv5wtmRbh3TA&usqp=CAU",
+        "name": "Wilkins Mckenzie",
+        "time": 38
+    },
+    {
+        "id": 9,
+        "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVpsXxyIsmpA4qiX6uQ4Pxyk1Nogt_J5oqUQ&usqp=CAU",
+        "name": "Karin Lee",
+        "time": 33
+    },
+    {
+        "id": 10,
+        "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJ1j4Iqg8iX4bu8uynBveU1jXwOp_ATlZS4g&usqp=CAU",
+        "name": "Corine Benton",
+        "time": 30
+    },
+    {
+        "id": 11,
+        "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQTTRIY93WBM752axbelIuD7MJlbDCjqq8xg&usqp=CAU",
+        "name": "Mcconnell Burnett",
+        "time": 32
+    },
+    {
+        "id": 12,
+        "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBGyMKoNKAptYgkZeNiwefKi-D3nOCUHdZyg&usqp=CAU",
+        "name": "Suarez Dyer",
+        "time": 39
+    }
+]
