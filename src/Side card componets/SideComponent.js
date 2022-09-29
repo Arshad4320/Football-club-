@@ -15,6 +15,23 @@ const SideComponent = ({ sideCard }) => {
             position: 'top-center'
         });
     }
+
+    const clickButton = (button) => {
+        const name = 'Number';
+        const quantity = button;
+        const cart = getData();
+        cart[name] = quantity;
+        localStorage.setItem('NUmber', JSON.stringify(cart))
+    }
+    const getData = () => {
+        const getStorage = localStorage.getItem('Number')
+        let cart = {}
+        if (getStorage) {
+            cart = JSON.parse(getStorage);
+        }
+        return cart;
+    }
+
     return (
         <div>
             <div className="side-container">
@@ -44,11 +61,11 @@ const SideComponent = ({ sideCard }) => {
                 <div className="break-content">
                     <h5>Add Break</h5>
                     <div className="timer">
-                        <button><span>10s</span></button>
-                        <button><span>20s</span></button>
-                        <button><span>30s</span></button>
-                        <button><span>40s</span></button>
-                        <button><span>50s</span></button>
+                        <button onClick={() => clickButton(10)}><span>10s</span></button>
+                        <button onClick={() => clickButton(20)} ><span>20s</span></button>
+                        <button onClick={() => clickButton(30)}><span>30s</span></button>
+                        <button onClick={() => clickButton(40)}><span>40s</span></button>
+                        <button onClick={() => clickButton(50)}><span>50s</span></button>
 
                     </div>
                 </div>
@@ -57,7 +74,7 @@ const SideComponent = ({ sideCard }) => {
                         <h6>Exercise time : {exTime}s</h6>
                     </div>
                     <div className="break-time">
-                        <h6>Break time :</h6>
+                        <h6>Break time :{() => getData()}</h6>
                     </div>
                 </div>
                 <button onClick={buttonTest} className='activity-btn'>Activity Completed</button>
