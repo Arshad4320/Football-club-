@@ -1,11 +1,17 @@
 import React from 'react';
 import './SideComponent.css'
 import images from '../images/download.jpg'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 const SideComponent = ({ sideCard }) => {
     let exTime = 0;
     for (const cart of sideCard) {
         exTime = exTime + cart.time
 
+    }
+    const buttonTest = () => {
+        alert('login success')
     }
     return (
         <div>
@@ -52,7 +58,7 @@ const SideComponent = ({ sideCard }) => {
                         <h6>Break time :</h6>
                     </div>
                 </div>
-                <button className='activity-btn'>Activity Completed</button>
+                <button onClick={buttonTest} className='activity-btn'>Activity Completed</button>
             </div>
         </div>
     );
