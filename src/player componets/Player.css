@@ -34,6 +34,23 @@
     top: 0;
 }
 
+.question-container.container {
+    background: rgb(174, 245, 245);
+    border-radius: 10px;
+    padding: 59px;
+}
+
+.question-container.container h4 {
+    color: dimgray;
+    font-size: 28px;
+}
+
+.question-container.container p {
+    color: dimgray;
+    font-size: 20px;
+    font-weight: 600;
+}
+
 @media screen and (max-width:992px) {
     .card-container {
         grid-template-columns: 2fr 1fr;
