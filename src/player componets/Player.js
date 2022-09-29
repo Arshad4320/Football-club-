@@ -1,6 +1,7 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
 import PlayerCart from '../Player cart/PlayerCart';
+import SideComponent from '../Side card componets/SideComponent';
 import './Player.css'
 
 const Player = () => {
@@ -17,7 +18,7 @@ const Player = () => {
                     {playerItem.map(p => <PlayerCart data={p}></PlayerCart>)}
                 </div>
                 <div className="side-content">
-                    <h2>I am hero</h2>
+                    <SideComponent></SideComponent>
                 </div>
             </div>
         </div>

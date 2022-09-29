@@ -1,0 +1,50 @@
+.timer {
+    display: flex;
+    justify-content: space-around;
+    font-size: 22px;
+    color: rgb(202, 172, 172);
+    margin-right: 15px;
+    padding: 5px;
+}
+
+.timer p:hover span {
+    color: white;
+    background: rgb(7, 85, 85);
+    margin-top: 10px;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+.exercise-time,
+.break-time {
+    margin-bottom: 10px;
+}
+
+.exercise-time input,
+.break-time input {
+    font-size: 19px;
+    border-radius: 7px;
+    background-color: rgb(167, 219, 215);
+    border: none;
+    padding: 10px;
+}
+
+
+.activity-btn {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    color: white;
+    background: rgb(7, 85, 85);
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    color: white;
+    width: 95%;
+}
+
+.activity-btn:hover {
+    background: darkcyan;
+}
