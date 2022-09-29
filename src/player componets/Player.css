@@ -10,17 +10,21 @@
 }
 
 .cart-content img {
-    width: 80%;
+    width: 90%;
     border-radius: 10px;
 
 }
 
 .add-button {
-    margin-bottom: 15px;
-    background: rebeccapurple;
+    margin-bottom: 40px;
+    background: rgb(7, 85, 85);
     border: none;
     padding: 8px;
     border-radius: 10px;
     color: white;
-    width: 80%;
+    width: 90%;
+}
+
+.add-button:hover {
+    background: darkcyan;
 }
