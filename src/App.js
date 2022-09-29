@@ -4,8 +4,6 @@ import Nav from './navigation/Nav';
 import Player from './player componets/Player';
 
 
-
-
 function App() {
 
   return (

@@ -1,30 +1,55 @@
 import React from 'react';
 import './SideComponent.css'
+import images from '../images/download.jpg'
+const SideComponent = ({ sideCard }) => {
+    let exTime = 0;
+    for (const cart of sideCard) {
+        exTime = exTime + cart.time
 
-const SideComponent = () => {
+    }
     return (
         <div>
-            <div className="side-details">
-                <div className="image-content">image-section</div>
+            <div className="side-container">
+                <div className="image-content">
+                    <div className="image-details">
+                        <img src={images} alt="" />
+                    </div>
+                    <div className="images-info">
+                        <p>MD. ARSHAD ULLAH</p>
+                        <span>BanglaDesh</span>
+                    </div>
+                </div>
+                <div className="image-info-details">
+                    <div className="weight">
+                        <h5>60kg</h5>
+                        <p>Weight</p>
+                    </div>
+                    <div className="height">
+                        <h5> 5.6</h5>
+                        <p>Height</p>
+                    </div>
+                    <div className="age">
+                        <h5>22y</h5>
+                        <p>Age</p>
+                    </div>
+                </div>
                 <div className="break-content">
                     <h5>Add Break</h5>
                     <div className="timer">
-                        <p><span>10s</span></p>
-                        <p><span>20s</span></p>
-                        <p><span>15s</span></p>
-                        <p><span>15s</span></p>
-                        <p><span>16s</span></p>
+                        <button><span>10s</span></button>
+                        <button><span>20s</span></button>
+                        <button><span>30s</span></button>
+                        <button><span>40s</span></button>
+                        <button><span>50s</span></button>
+
                     </div>
                 </div>
                 <div className="exercise-details">
-                    <h6>Exercise Details</h6>
                     <div className="exercise-time">
-                        <h6>Exercise time</h6>
-                        <input placeholder='seconds' type="text" />
+                        <h6>Exercise time : {exTime}s</h6>
                     </div>
                     <div className="break-time">
-                        <h6>Break time</h6>
-                        <input placeholder='seconds' type="text" />
+                        <h6>Break time :</h6>
                     </div>
                 </div>
                 <button className='activity-btn'>Activity Completed</button>
