@@ -11,7 +11,9 @@ const SideComponent = ({ sideCard }) => {
 
     }
     const buttonTest = () => {
-        alert('login success')
+        toast.info("Wow Your Activity Completed. Awesome!", {
+            position: 'top-center'
+        });
     }
     return (
         <div>
@@ -60,6 +62,7 @@ const SideComponent = ({ sideCard }) => {
                 </div>
                 <button onClick={buttonTest} className='activity-btn'>Activity Completed</button>
             </div>
+            <ToastContainer />
         </div>
     );
 };
